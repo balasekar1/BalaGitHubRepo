@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+    <title>My Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/jquery.mobile-1.2.0.min.css">
+    <link rel="stylesheet" href="css/table.css">
+<style type="text/css"> 
+.CSSTableGenerator .ui-header .ui-btn-inner, .ui-footer .ui-btn-inner, .ui-mini .ui-btn-inner {font-size: 9px}
+</style>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.mobile-1.2.0.min.js"></script>
+</head>
+<body>
+    <div data-role="page" data-theme="d" id="pageone"> 
+        <header data-role="header">
+        <a href="index.html" data-add-back-btn="true" data-theme="b" class="ui-btn-left" rel="external">Back</a>
+        <h1>Demo Request</h1>
+        </header>
+
+    <div class="CSSTableGenerator">
+        <table data-role="table">
+               <tr>
+                   <td>Date</th>
+                   <td>Time</th>
+                   <td>Components</th>
+                   <td>Register</th>                
+               </tr>
+                <tr>
+                    <td>April 16, 2015</td>
+                    <td>8:30AM to 10.00AM</td>
+                    <td>Data Generator, Data Comparator, Data Analyzer</td>
+                    <td><a href="#pagetwo" data-rel="dialog" data-role="button" data-mini="true" data-inline="true" data-theme="e" data-rel="dialog">Register</a></td>
+               </tr>
+               <tr>
+                    <td>April 16, 2015</td>
+                    <td>8:30AM to 10.00AM</td>
+                    <td>Data Generator, Data Comparator, Data Analyzer</td>
+                    <td><a href="#pagetwo" data-rel="dialog" data-role="button" data-mini="true" data-inline="true" data-theme="e">Register</a></td>
+               </tr>
+               <tr>
+                    <td>April 16, 2015</td>
+                    <td>8:30AM to 10.00AM</td>
+                    <td>Data Generator, Data Comparator, Data Analyzer</td>
+                    <td><a href="#pagetwo" data-rel="dialog" data-role="button" data-mini="true" data-inline="true" data-theme="e">Register</a></td>
+               </tr>
+               <tr>
+                    <td>April 16, 2015</td>
+                    <td>8:30AM to 10.00AM</td>
+                    <td>Data Generator, Data Comparator, Data Analyzer</td>
+                    <td><a href="#pagetwo" data-rel="dialog" data-role="button" data-mini="true" data-inline="true" data-theme="e">Register</a></td>
+               </tr>
+               <tr>
+                    <td>April 16, 2015</td>
+                    <td>8:30AM to 10.00AM</td>
+                    <td>Data Generator, Data Comparator, Data Analyzer</td>
+                    <td><a href="#pagetwo" data-rel="dialog" data-role="button" data-mini="true" data-inline="true" data-theme="e">Register</a></td>
+               </tr>
+
+       </table>
+
+</div>
+        <div data-role="footer">
+            <h4>All rights reserverd</h4>
+        </div><!-- /footer -->
+ 
+    </div><!-- /page -->
+    <div data-role="page" id="pagetwo" style="text-align:center" data-theme="d">
+        <div data-role="content">
+            <img src="img/demo.png" alt="demo">
+            <h4>Demo Slot:Thu | 16 April | 8:30AM to 10.00AM (IST)</h4>
+            <h5>Thanks for your interest!</h5>
+            <div data-role="fieldcontain">
+                <label for="name">Kindly enter the participant email IDs separated by (;)</label>
+                <textarea name="name" id="name" value=""></textarea><br>
+                <a href="#" data-role="button" data-mini="true" data-inline="true" data-theme="b">Confirm</a>
+                <a href="#pageone" data-role="button" data-mini="true" data-inline="true" data-theme="d">Cancel</a>
+            </div>	
+        </div> 
+    </div> 
+</body>
+</html>
